@@ -11,7 +11,8 @@ import (
 	"strconv"
 	"strings"
 
-	"golang.org/x/net/proxy"
+	"github.com/golang/net/proxy"
+	//"golang.org/x/net/proxy"
 )
 
 // Dialer returns a proxy.Dialer for the given Tor instance.
